@@ -32,7 +32,7 @@ Based upon: https://github.com/jgilfelt/SystemBarTint
 License
 ==============
 
-Copyright 2013 readyState Software Limited
+Copyright 2014 Adam Fręśko - Deadswine Studio
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
