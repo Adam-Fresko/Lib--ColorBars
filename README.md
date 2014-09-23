@@ -9,9 +9,11 @@ Usage Example:
 
     public ColorBars(Activity activity, View view, int PaddingBotom,int PaddingTop) {
 
-
-		mColorBars = new ColorBars(getActivity(), findViewById(R.id.BaseContainer),0,0);
-		mColorBars.changeColor(new Color().Red); // Call this at any moment. 
+		// Set this at activity on create
+		mColorBars = new ColorBars(getActivity(), findViewById(R.id.BaseContainer),0,0); 
+		
+		// Call this at any moment. 
+		mColorBars.changeColor(new Color().Red); 
 		
 		
 		
