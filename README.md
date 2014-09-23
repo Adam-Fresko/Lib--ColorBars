@@ -21,7 +21,9 @@ Usage Example:
 ==============
 
 Author: Adam Fręśko
-https://github.com/jgilfelt/SystemBarTint
+<br>
+
+Based upon: https://github.com/jgilfelt/SystemBarTint
 
 
 License
