@@ -4,7 +4,7 @@ Lib--ColorBars
 Simple to use library for animating color change for ActionBar, NavigationBar, and status bar
 
 
-Usage Example:
+Usage Example
 ==============
 
     public ColorBars(Activity activity, View view, int PaddingBotom,int PaddingTop) {
