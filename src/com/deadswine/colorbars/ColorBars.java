@@ -65,14 +65,14 @@ public class ColorBars {
 
 	}
 
-	public ColorBars(Activity activity, View view, int b,int t) {
+	public ColorBars(Activity activity, View view, int PaddingBotom,int PaddingTop) {
 		mActivity = activity;
 		mActionBar = activity.getActionBar();
 		mContext = mActivity.getApplicationContext();
 		mTintManager = new SystemBarTintManager(mActivity);
 
-		B = b;
-		T = t;
+		B = PaddingBotom;
+		T = PaddingTop;
 		
 		
 		mView = view;
