@@ -19,7 +19,8 @@ Usage Example:
 		
 	
 	
-	Credits
+
+Credits
 ==============
 
 Author: Adam Fręśko
