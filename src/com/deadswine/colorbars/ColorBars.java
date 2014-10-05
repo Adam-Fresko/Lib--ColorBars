@@ -19,7 +19,7 @@ import android.view.WindowManager;
 import com.readystatesoftware.systembartint.SystemBarTintManager;
 
 /**
- * @author Adam Fr�ko
+ * @author Adam Frêœko
  *         <p>
  *         Copyright
  *         <p>
@@ -406,9 +406,9 @@ public class ColorBars {
 				orientationLandscape.oldBackgroundNavigationBar = ld3;
 
 				// http://stackoverflow.com/questions/11002691/actionbar-setbackgrounddrawable-nulling-background-from-thread-handler
-				// getActionBar().setDisplayShowTitleEnabled(false);
-				mActionBar.setDisplayShowTitleEnabled(false);
-				mActionBar.setDisplayShowTitleEnabled(true);
+                                boolean isDisplayingTitle = (mActionBar.getDisplayOptions() & ActionBar.DISPLAY_SHOW_TITLE) != 0;
+                                mActionBar.setDisplayShowTitleEnabled(!isDisplayingTitle);
+                                mActionBar.setDisplayShowTitleEnabled(isDisplayingTitle);
 			}
 		}
 
